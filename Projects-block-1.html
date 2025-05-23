@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arman-Interior | Минимализм</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Project-block-1.css">
+  <script src="Projects.js"></script>
+</head>
+<body>
+  <header class="top-header">
+    <div class="logo">
+      <a href="Home.html">Arman-Interior</a>
+    </div>
+    <div class="header-controls">
+      <!-- <ul class="header-lang">
+        <li><button class="translate" id="kz" title="Казахский"><img src="../Practica_AIV/img-practica_aiv/kz.jpg" alt="KZ flag" /></button></li>
+        <li><button class="translate" id="ru" title="Русский"><img src="../Practica_AIV/img-practica_aiv/ru.jpg" alt="RU flag" /></button></li>
+        <li><button class="translate" id="uk" title="Английский"><img src="../Practica_AIV/img-practica_aiv/uk.jpg" alt="UK flag" /></button></li>
+      </ul> -->
+      <button class="menu-button">Меню</button>
+    </div>
+  </header>
+
+  <nav class="side-menu" id="sideMenu">
+    <button class="close-btn" id="closeMenu">&times;</button>
+    <ul>
+      <li><a href="Home.html">Главная</a></li>
+      <li><a href="About-us.html">О нас</a></li>
+      <li><a href="Projects.html">Проекты</a></li>
+      <li><a href="Contact.html">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <div class="overlay" id="overlay"></div>
+
+  <section class="hero-header">
+    <div class="hero-text">
+      <h1>Современный минимализм</h1>
+      <p>Пространство, свет и чистота форм — ключ к гармонии в интерьере.</p>
+    </div> 
+    <div class="parallax-image"></div>
+  </section>
+
+  <section class="parallax-section-for-kitchen">
+    <div class="info-left">
+      <h2>Что входит в проект</h2>
+      <ul>
+        <li>Настроение и стиль</li>
+        <li>Выезд на объект</li>
+        <li>План цветов и материалов</li>
+        <li>План расстановки мебели</li>
+        <li>Сценарий освещения</li>
+        <li>3D-визуализация</li>
+        <li>Образцы материалов</li>
+        <li>Презентация проекта</li>
+        <li>Финальная встреча</li>
+      </ul>
+    </div>
+
+    <div class="parallax-image-kitchen"></div>
+
+    <div class="info-right">
+      <p>
+       В этом проекте мы оформили жилое пространство в стиле современного минимализма. Чистые линии, тёплые нейтральные оттенки и продуманные решения делают интерьер лёгким и гармоничным. Концепция вдохновлена стилем Japandi — утончённым сочетанием японской простоты и скандинавской сдержанности.
+      </p>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <div class="faq-left">
+      <img src="../Practica_AIV/img-practica_aiv/style/Minimalism-bathroom.jpg" alt="Minimalism bathroom" class="faq-image"/>
+      <div class="faq-overlay">
+        <h2>Нужна помощь? Свяжитесь с нами.</h2>
+        <a href="Contact.html" class="cta-button-bathroom">Обратная связь →</a>
+      </div>
+    </div>
+
+    <div class="faq-right">
+      <h2 class="faq-title">Частые вопросы</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Что входит в дизайн-проект?
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Мы подбираем стилистику, материалы, мебель и освещение, создаём 3D-визуализацию и сопровождаем реализацию.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header active">
+            Чем отличается минимализм?
+            <span class="icon">−</span>
+          </button>
+          <div class="accordion-content open">
+            <p>Это стиль, где каждый элемент продуман и функционален. Нет лишнего — только суть, только гармония.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Сколько занимает разработка проекта?
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Обычно 3-5 недель в зависимости от сложности и площади объекта.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Вы помогаете с реализацией?
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Да, мы контролируем ход работ, взаимодействуем с подрядчиками и следим за качеством исполнения.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-grid">
+    <button class="slider-btn prev">&larr;</button>
+    <div class="slider-wrapper">
+      <div class="slider-track">
+        <div class="slider-page">
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Loft-living.jpg" alt="Loft гостиная">
+          </div>
+          <div class="image-card with-overlay">
+            <img src="../Practica_AIV/img-practica_aiv/style/Loft-kitchen.jpg" alt="Loft кухня">
+            <div class="overlay-text">
+              <h2>Проект Loft</h2>
+              <a href="#" class="cta-button">Смотреть</a>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Loft-bathroom.jpg" alt="Loft ванная">
+          </div>
+        </div>
+
+        <div class="slider-page">
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Classic-living.jpg" alt="Classic гостиная">
+          </div>
+          <div class="image-card with-overlay">
+            <img src="../Practica_AIV/img-practica_aiv/style/Classic-kitchen.jpg" alt="Classic кухня">
+            <div class="overlay-text">
+              <h2>Проект Classic</h2>
+              <a href="Contact.html" class="cta-button">Смотреть</a>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Classic-bathroom.jpg" alt="Classic ванная">
+          </div>
+        </div>
+
+        <div class="slider-page">
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style//Modern.jpg" alt="Современный стиль">
+          </div>
+          <div class="image-card with-overlay">
+            <img src="../Practica_AIV/img-practica_aiv/style/Modern-kitchen.jpg" alt="Современная кухня">
+            <div class="overlay-text">
+              <h2>Проект Минимализм</h2>
+              <a href="#" class="cta-button">Смотреть</a>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Modern-bathroom.jpg" alt="Современная ванная">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn next">&rarr;</button>
+  </section>
+
+  <footer>
+    &copy; 2025 Arman-Interior | Дизайн от ChatGPT
+  </footer>
+
+  <script>
+    const items = document.querySelectorAll('.accordion-header');
+
+    items.forEach(item => {
+      item.addEventListener('click', () => {
+        const currentlyOpen = document.querySelector('.accordion-header.active');
+        if (currentlyOpen && currentlyOpen !== item) {
+          currentlyOpen.classList.remove('active');
+          currentlyOpen.nextElementSibling.classList.remove('open');
+          currentlyOpen.querySelector('.icon').textContent = '+';
+        }
+
+        item.classList.toggle('active');
+        const content = item.nextElementSibling;
+        content.classList.toggle('open');
+
+        const icon = item.querySelector('.icon');
+        icon.textContent = content.classList.contains('open') ? '−' : '+';
+      });
+    });
+
+    document.addEventListener("DOMContentLoaded", () => {
+      let currentIndex = 0;
+      const track = document.querySelector(".slider-track");
+      const pages = document.querySelectorAll(".slider-page");
+      const nextBtn = document.querySelector(".slider-btn.next");
+      const prevBtn = document.querySelector(".slider-btn.prev");
+
+      if (!nextBtn || !prevBtn || !track || pages.length === 0) {
+        console.error("Элементы не найдены.");
+        return;
+      }
+
+      nextBtn.addEventListener("click", () => {
+        if (currentIndex < pages.length - 1) {
+          currentIndex++;
+          track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+      });
+
+      prevBtn.addEventListener("click", () => {
+        if (currentIndex > 0) {
+          currentIndex--;
+          track.style.transform = `translateX(-${currentIndex * 100}%)`;
+        }
+      });
+    });
+  </script>
+</body>
+</html>

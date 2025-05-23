@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arman Interior - Projects</title>
+  <link rel="stylesheet" href="Projects.css">
+  <script src="Projects.js"></script>
+</head>
+<body>
+  <header class="top-header">
+    <div class="logo">
+      <a href="Home.html">A.I.</a>
+    </div>
+    <div class="header-control">
+      <!-- <ul class="header-lang">
+        <li>
+          <button class="translate" id="kz" title="Казахский">
+            <img src="../Practica_AIV/img-practica_aiv/kz.jpg" alt="KZ flag" />
+          </button>
+        </li>
+        <li>
+          <button class="translate" id="ru" title="Русский">
+            <img src="../Practica_AIV/img-practica_aiv/ru.jpg" alt="RU flag" />
+          </button>
+        </li>
+        <li>
+          <button class="translate" id="uk" title="Английский">
+            <img src="../Practica_AIV/img-practica_aiv/uk.jpg" alt="UK flag" />
+          </button>
+        </li>
+      </ul> -->
+      <button class="menu-button">Menu</button>
+    </div>
+  </header>
+  <nav class="side-menu" id="sideMenu">
+    <button class="close-btn" id="closeMenu">&times;</button>
+    <ul>
+      <li><a href="Home.html">Главная</a></li>
+      <li><a href="About-us.html">О нас</a></li>
+      <li><a href="Projects.html">Проекты</a></li>
+      <li><a href="Contact.html">Контакты</a></li>
+    </ul>
+  </nav>
+  <div class="overlay" id="overlay"></div>
+
+  <div class="main-text">
+    <span>ARMAN</span>
+    <span>INTERIOR</span>
+  </div>
+
+  <div class="cards-container">
+    <div class="card">
+      <a href="Projects-block-1.html"><img src="../Practica_AIV//img-practica_aiv/style/Minimalism-living.jpg" alt="OPS..." /></a>
+      <div class="card-content">
+        <div class="card-title">MINIMALISM</div>
+        <div class="card-tag"></div>
+        <div class="card-description">
+        Минимализм — это искусство говорить «нет» лишнему. Только линии, свет и точность.
+
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Projects-block-2.html"><img src="../Practica_AIV/img-practica_aiv/style/Boho-living.jpg" alt="OPS..." /></a>
+      <div class="card-content">
+        <div class="card-title">BOHO</div>
+        <div class="card-tag"></div>
+        <div class="card-description">
+          Свобода цвета, фактур и настроения. Boho — это интерьер с душой.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Projects-block-3.html"><img src="../Practica_AIV/img-practica_aiv/style/Classic-living.jpg" alt="OPS..." /></a>
+      <div class="card-content">
+        <div class="card-title">CLASSIC</div>
+        <div class="card-tag"></div>
+        <div class="card-description">
+           Элегантность, симметрия и вечные формы. Классика — вне времени.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Projects-block-4.html"><img src="../Practica_AIV/img-practica_aiv/style/Eco-living.jpg" alt="OPS..." /></a>
+      <div class="card-content">
+        <div class="card-title">ECO</div>
+        <div class="card-tag"></div>
+        <div class="card-description">
+          Живые материалы, природные оттенки и свет. Eco — когда дом дышит
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Projects-block-5.html"><img src="../Practica_AIV/img-practica_aiv/style/Loft-living.jpg" alt="OPS..." /></a>
+      <div class="card-content">
+        <div class="card-title">LOFT</div>
+        <div class="card-tag"></div>
+        <div class="card-description">
+        Грубый бетон, открытые коммуникации и простор. Loft — для тех, кто ценит свободу.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Projects-block-6.html"><img src="../Practica_AIV/img-practica_aiv/style/Modern.jpg" alt="OPS..." /></a>
+      <div class="card-content">
+        <div class="card-title">MODERN</div>
+        <div class="card-tag"></div>
+        <div class="card-description">
+           Чистые линии, продуманная геометрия и функциональность. Современность в деталях.
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <a href="Projects-block-7.html"><img src="../Practica_AIV/img-practica_aiv/style/Wabi-Sabi-living.jpg" alt="OPS..." /></a>
+      <div class="card-content">
+        <div class="card-title">WABI-SABI</div>
+        <div class="card-tag"></div>
+        <div class="card-description">
+          Природная простота, несовершенство и покой. Wabi-Sabi — эстетика тишины.
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="contact-section">
+    <h2>Написать нам  </h2>
+    <form class="contact-form" action="#" method="post">
+      <label for="email">Email </label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Номер телефона</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="message">Сообщение</label>
+      <textarea id="message" name="message" rows="5" required></textarea>
+
+      <p>Оставьте свои контактные данные, и я свяжусь с вами в ближайшее время.</p>
+
+      <button type="submit">Оставить заявку</button>
+    </form>
+
+    <div class="social-media">
+      <a href="https://www.instagram.com/kairatovadil_?igsh=NHNmdXgzZHR0emNj&utm_source=ig_contact_invite" target="_blank">Instagram</a>
+      <a href="https://vm.tiktok.com/ZMSLVHsrn/" target="_blank">TikTok</a>
+      <a href="#" target="_blank">Facebook</a>
+    </div>
+
+    <footer class="site-footer">
+      <p>© 2025 A.I.Arman Interior. All rights reserved</p>
+    </footer>
+  </section>
+
+</body>
+</html>

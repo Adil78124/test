@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arman-Interior</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="Project-block-7.css">
+  <script src="Projects.js"></script>
+</head>
+<body>
+  <header class="top-header">
+    <div class="logo">
+      <a href="Home.html">Arman-Interior</a>
+    </div>
+    <div class="header-controls">
+      <!-- <ul class="header-lang">
+        <li>
+          <button class="translate" id="kz" title="Казахский">
+            <img src="../Practica_AIV/img-practica_aiv/kz.jpg" alt="KZ flag" />
+          </button>
+        </li>
+        <li>
+          <button class="translate" id="ru" title="Русский">
+            <img src="../Practica_AIV/img-practica_aiv/ru.jpg" alt="RU flag" />
+          </button>
+        </li>
+        <li>
+          <button class="translate" id="uk" title="Английский">
+            <img src="../Practica_AIV/img-practica_aiv/uk.jpg" alt="UK flag" />
+          </button>
+        </li>
+      </ul> -->
+      <button class="menu-button">Меню</button>
+    </div>
+  </header>
+
+  <nav class="side-menu" id="sideMenu">
+    <button class="close-btn" id="closeMenu">&times;</button>
+    <ul>
+      <li><a href="Home.html">Главная</a></li>
+      <li><a href="About-us.html">О нас</a></li>
+      <li><a href="Projects.html">Проекты</a></li>
+      <li><a href="Contact.html">Контакты</a></li>
+    </ul>
+  </nav>
+
+  <div class="overlay" id="overlay"></div>
+
+  <section class="hero-header">
+    <div class="hero-text">
+      <h1>Простота и тишина в каждой детали</h1>
+      <p>Интерьер в духе Wabi-Sabi — гармония естественного, света и пространства.</p>
+    </div> 
+    <div class="parallax-image"></div>
+  </section>
+
+  <section class="parallax-section-for-kitchen">
+    <div class="info-left">
+      <h2>Этапы проекта</h2>
+      <ul>
+        <li>Настроение и визуальная концепция</li>
+        <li>Встреча на объекте</li>
+        <li>План материалов и оттенков</li>
+        <li>Планировка мебели с ссылками на магазины</li>
+        <li>Сценарии освещения</li>
+        <li>3D визуализация</li>
+        <li>Пробники и образцы</li>
+        <li>Индивидуальная презентация</li>
+        <li>Финальная встреча</li>
+      </ul>
+    </div>
+
+    <div class="parallax-image-kitchen"></div>
+
+    <div class="info-right">
+      <p>
+        Пространство наполнено теплом и текстурами. Мы объединили минимализм с аутентичными акцентами, чтобы создать уютную и умиротворённую атмосферу. Использование природных материалов и приглушённых тонов подчёркивает эстетику Wabi-Sabi.
+      </p>
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <div class="faq-left">
+      <img src="../Practica_AIV/img-practica_aiv/style/Wabi-Sabi-bathroom.jpg" alt="Wabi Sabi living" class="faq-image"/>
+      <div class="faq-overlay">
+        <h2>Нужна помощь? Мы рядом.</h2>
+        <a href="Contact.html" class="cta-button-bathroom">Связаться с нами →</a>
+      </div>
+    </div>
+
+    <div class="faq-right">
+      <h2 class="faq-title">Частые вопросы</h2>
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Что включает в себя Wabi-Sabi стиль?
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Это принятие несовершенства, использование натуральных материалов и спокойной палитры, стремление к простоте и душевности.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header active">
+            Сколько времени занимает реализация проекта?
+            <span class="icon">−</span>
+          </button>
+          <div class="accordion-content open">
+            <p>Обычно от 4 до 8 недель, в зависимости от объёма и сложности работ.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Можно ли адаптировать стиль под маленькие пространства?
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Да, стиль идеально подходит для компактных помещений, делая их уютными и функциональными.</p>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Предоставляете ли вы авторский надзор?
+            <span class="icon">+</span>
+          </button>
+          <div class="accordion-content">
+            <p>Да, мы сопровождаем проект на всех этапах — от идеи до финального воплощения.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="image-grid">
+    <button class="slider-btn prev">&larr;</button>
+    <div class="slider-wrapper">
+      <div class="slider-track">
+        <div class="slider-page">
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Loft-living.jpg" alt="Фото 1">
+          </div>
+          <div class="image-card with-overlay">
+            <img src="../Practica_AIV/img-practica_aiv/style/Loft-kitchen.jpg" alt="Фото 2">
+            <div class="overlay-text">
+              <h2>Интерьер в стиле Loft</h2>
+              <a href="#" class="cta-button">Смотреть проект</a>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Loft-bathroom.jpg" alt="Фото 3">
+          </div>
+        </div>
+
+        <div class="slider-page">
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Classic-living.jpg" alt="Фото 1">
+          </div>
+          <div class="image-card with-overlay">
+            <img src="../Practica_AIV/img-practica_aiv/style/Classic-kitchen.jpg" alt="Фото 2">
+            <div class="overlay-text">
+              <h2>Интерьер в стиле Classic</h2>
+              <a href="#" class="cta-button">Смотреть проект</a>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Classic-bathroom.jpg" alt="Фото 3">
+          </div>
+        </div>
+
+        <div class="slider-page">
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style//Modern.jpg" alt="Фото 1">
+          </div>
+          <div class="image-card with-overlay">
+            <img src="../Practica_AIV/img-practica_aiv/style/Modern-kitchen.jpg" alt="Фото 2">
+            <div class="overlay-text">
+              <h2>Минимализм и гармония</h2>
+              <a href="#" class="cta-button">Смотреть проект</a>
+            </div>
+          </div>
+          <div class="image-card">
+            <img src="../Practica_AIV/img-practica_aiv/style/Modern-bathroom.jpg" alt="Фото 3">
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="slider-btn next">&rarr;</button>
+  </section>
+
+  <footer>
+    &copy; 2025 TA Inspired Design | Дизайн от Arman-Interior
+  </footer>
+
+</body>
+</html>
